@@ -1,0 +1,129 @@
+@font-face{
+    font-family: 'Vazir';
+    src: url('fonts/Vazir.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Vazir', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    text-align: center; 
+    margin-top: 40px;
+}
+
+.mobile-image{
+    width: auto;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.intro{
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro-questions{
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+.intro-questions h2{
+    margin-bottom: 0;
+}
+
+.intro-questions p{
+    margin-top: 20px;
+}
+
+.ai-image{
+    width: 370px;
+    height: 220px;
+    border-radius: 5%;
+    float: left;
+    clear: both;
+}
+
+.tool{
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+.gpt-image{
+    margin-top: 85px;
+    margin-left: 80px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    float: left;
+    clear: both;
+}
+
+.deepseek-image{
+    margin-top: 85px;
+    width: 400px;
+    height: 200px;
+    border-radius: 5%;
+    float: left;
+    clear: both;
+}
+
+.chatbot-border{
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+.count{
+    margin-top: 40px;
+}
+
+.chatbot-border table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-banner{
+    background-color: #f1c40f;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #f1c40f;
+}
